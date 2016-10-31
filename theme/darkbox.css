@@ -1,0 +1,43 @@
+
+
+.owni1407_dark {
+    width:100%;
+    background:url("./images/brownbox.png") repeat;
+    position:absolute;
+    top:0px;
+    left:0px;
+    padding:0px;
+    z-index: 500;
+    display:none;
+}
+
+.owni1407_trigger {
+    cursor:pointer;
+}
+
+.owni1407_close {
+    float:right;
+    height:0px;
+    position:absolute;
+    top:-22px;
+    color:#a8948a;
+    font-weight:bold;
+    font-family:Verdana;
+    cursor:pointer;
+}
+
+.owni1407_box {
+    width:990px;
+    height:660px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    padding:0px;
+    z-index: 600;
+    display:none;
+
+    box-shadow:0px 0px 30px #110000;
+    -moz-box-shadow:0px 0px 30px #110000;
+    -webkit-box-shadow:0px 0px 30px #110000;
+    -khtml-box-shadow:0px 0px 30px #110000;
+}

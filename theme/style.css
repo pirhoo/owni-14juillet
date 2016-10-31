@@ -1,0 +1,132 @@
+body {
+    margin:0px;
+    padding:0px
+}
+
+#workspace {
+    background: url("./images/elysee.png") no-repeat;
+    height:660px;
+    width:990px;
+    overflow:hidden;
+}
+
+.casserole {
+    position:relative;
+    display:none;
+}
+
+.toggleScandale {
+    height:80px;
+    width:80px;
+    position:absolute;
+}
+
+#workspace .view {
+    padding:0px;
+    width:180px;
+    height:240px;
+    position:relative;
+    left:412px;
+    top:350px;
+    color:#3e1b14;
+    font-family: Verdana;
+    font-size:14px;
+    line-height: 16px;
+}
+
+#workspace .view p {
+    padding:0px;
+    margin:0px;
+}
+#workspace .view .ministre {
+    text-align:center;
+    margin-bottom:10px;
+    font-weight:bold;
+}
+
+#workspace .view .ministre .nom{
+    text-transform:uppercase;
+}
+
+#workspace .view .description {
+    height:145px;
+    overflow:auto;
+    font-size:11px;
+    padding:5px;
+}
+
+#workspace .source {
+    text-align:left;
+    clear:both;
+}
+
+
+#workspace .source a{
+    border-bottom:1px solid #8f745f;
+    color:#3e1b14;
+    text-decoration:none;
+}
+
+#workspace .view .navigation {
+    cursor:pointer;
+    font-size:11px;
+    margin-bottom:2px;
+    height:15px;
+}
+
+#workspace .view .navigation .prec {
+    display:none;
+    float:left;
+}
+
+#workspace .view .navigation .suiv {
+    display:none;
+    float:right;
+}
+
+#workspace .view .navigation img {
+    margin:0px 4px;
+    margin-bottom:-2px;
+}
+
+#footer {
+    text-align:right;
+    position:relative;
+    top:373px;
+}
+
+#footer .inputEmbed span {
+    color:white;
+    font-weight:bold;
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+#footer a, #footer .share{
+   font-size:12px;
+   color:gray;
+   text-decoration:none;
+   float:right;
+   margin-right:5px;
+}
+
+#footer .bg-white {
+    background:white;
+    padding:1px 2px;
+    padding-bottom:0px;
+    border:1px solid gray;
+    margin-top:-1px;
+    height:17px;
+}
+
+#footer .share.twitter {
+    width:68px;
+}
+
+#footer a img{
+   border:0px;
+}
+
+.clear {
+    clear:both;
+}
